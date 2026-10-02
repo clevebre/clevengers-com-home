@@ -117,3 +117,17 @@ ul.works li{padding:10px 0;border-bottom:1px solid var(--line)}
 ul.works a{font-family:var(--head);font-weight:600;font-size:17.5px;text-decoration:none;border-bottom:1px solid var(--under)}
 ul.works a:hover{border-bottom-color:var(--ink)}
 ul.works span{display:block;color:var(--muted);font-size:15px;margin-top:3px}
+.desk{margin:34px 0 8px}
+.desk h2{margin:0 0 12px}
+ul.needs{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:10px}
+ul.needs a{display:block;height:100%;box-sizing:border-box;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:var(--ink)}
+ul.needs a:hover{border-color:var(--a)}
+ul.needs b{font-family:var(--head);font-weight:600;font-size:16.5px;line-height:1.3}
+ul.needs li.need-now a{border-left:4px solid var(--a)}
+p.now{max-width:var(--read);margin:14px 0 6px;padding:10px 14px;border-left:4px solid var(--a);background:var(--surface);border-radius:0 10px 10px 0}
+nav.toc ul{list-style:none;margin:18px 0 6px;padding:0;display:flex;flex-wrap:wrap;gap:6px 18px;max-width:var(--read)}
+nav.toc a{font-size:15px}
+section.need{margin:34px 0 0;padding-top:18px;border-top:1px solid var(--line);max-width:var(--read)}
+section.need h2{margin-top:0}
+ul.go{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px}
+ul.go a{font-weight:600}
